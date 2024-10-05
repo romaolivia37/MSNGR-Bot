@@ -184,5 +184,14 @@
     },
     "rname": {
         "APIKEY": "mi451266190"
+    
+    ],
+  "OWNER": ["100011768052998"], 
+  "APPROVED": [],
+  "disabledcmds": [],
+  "disabledevents": [],
+  "note": "make sure that the bot name you entered is all lowercase",
+  "notice": "dont cng author name and owner uid. otherwise bot not working",
+  "notice2": "if you run use email and password, use saveState false; otherwise, use saveState true"
     }
 }
