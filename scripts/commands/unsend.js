@@ -1,15 +1,13 @@
 module.exports.config = {
-	name: "uns",
-	version: "1.0.5",
-	permission: 2,
-	credits: "Nayan",
-	prefix: true,
-	description: "ban or unblock users",
-	category: "admin",
-	usages: " ",
-	cooldowns: 5
+	name: "unsend",
+	version: "1.0.1",
+	hasPermssion: 2,
+	credits: "Mirai Team",
+	description: "unsend message",
+	commandCategory: "system",
+	usages: "unsend",
+	cooldowns: 0
 };
-
 
 module.exports.languages = {
 	"vi": {
@@ -26,4 +24,4 @@ module.exports.run = function({ api, event, getText }) {
 	if (event.messageReply.senderID != api.getCurrentUserID()) return api.sendMessage(getText("returnCant"), event.threadID, event.messageID);
 	if (event.type != "message_reply") return api.sendMessage(getText("missingReply"), event.threadID, event.messageID);
 	return api.unsendMessage(event.messageReply.messageID);
-	}
+}
