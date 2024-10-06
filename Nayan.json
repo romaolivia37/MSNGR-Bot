@@ -5,7 +5,7 @@
   "developermode": false,
   "language": "en",
   "notification": false,
-  "approval": false,
+  "approval": true,
   "saveState": true,
   "BOTNAME": "• ➠B A Y E Z I D~ B O T 2 0 2 4🐰",
   "PREFIX": "/",
@@ -17,7 +17,7 @@
     "100000959749712",
     ""
   ],
-  "OWNER": ["100000959749712"], 
+  "OWNER": ["100011768052998"], 
   "APPROVED": [],
   "disabledcmds": [],
   "disabledevents": [],
